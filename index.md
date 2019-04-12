@@ -1,3 +1,3 @@
-## Welcome to Secretish Squirrel's Secret Stash!
+## Labs
 
-Content coming soon.
+ - [Password Attacks using Mimikatz via Meterpreter](/Lab_Metasploit_Mimikatz.pdf)
