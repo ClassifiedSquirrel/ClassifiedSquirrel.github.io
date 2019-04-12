@@ -1,3 +1,3 @@
-## Welcome to Classified Squirrel's Secret Stash!
+## Welcome to Secretish Squirrel's Secret Stash!
 
 Content coming soon.
