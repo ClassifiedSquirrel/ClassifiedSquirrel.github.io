@@ -1,5 +1,50 @@
-theme: jekyll-theme-minimal
 title: Secretish Squirrel's Secret Stash
-description: >
-A stash of Cybersecurity Labs, Lectures and Other Materials.
-logo: squirrel.png
+description: My Personal Stack Problems
+author: Secretish Squirrel
+github: https://github.com/SecretishSquirrel
+about: A trove of Cybersecurity Labs, Lectures and Other Materials.
+disqus_shortname: stackproblems
+#google_analytics: UA-XXXXXXXX-Y
+avatar_url: /static/img/squirrel.png
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-twitter
+      link: "https://twitter.com/rjmacfarlane"
+    - icon: fa-github
+      link: "https://github.com/agusmakmun"
+
+share:
+  twitter_username: rjmacfarlane
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://secretishsquirrel.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
